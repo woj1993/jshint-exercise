@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "dependencies": {
     "grunt": "^0.4.1",
+    "grunt-cli": "*",
     "grunt-contrib-jshint": "^0.10.0"
   },
   "engines": {
