@@ -21,6 +21,7 @@
     "maxstatements": 0,
     "newcap": true,
     "noarg": true,
+
     "noempty": true,
     "nonbsp": true,
     "nonew": true,
