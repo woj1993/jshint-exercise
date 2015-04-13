@@ -22,6 +22,7 @@
     "maxerr": 3,
     "newcap": true,
     "noarg": true,
+
     "noempty": true,
     "nonbsp": true,
     "nonew": true,
