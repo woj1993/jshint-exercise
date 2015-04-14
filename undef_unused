@@ -1,0 +1,21 @@
+/**
+ * Created by student on 08.04.15.
+ */
+
+
+function undefTest() {
+
+    var undefVariable = 'Undef';
+
+    return undefVariable2;
+
+}
+
+
+function unusedTest(a,b) {
+
+    var unusedVariable = 3;
+
+    return a+b;
+
+}
