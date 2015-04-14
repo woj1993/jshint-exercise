@@ -17,10 +17,12 @@
     "maxcomplexity": 10,
     "maxdepth": 2,
     "maxlen": 160,
-    "maxparams": 20,
+    "maxparams": 3,
     "maxstatements": 0,
+    "maxerr": 3,
     "newcap": true,
     "noarg": true,
+
     "noempty": true,
     "nonbsp": true,
     "nonew": true,
