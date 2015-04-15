@@ -3,6 +3,6 @@
  */
 
 // JSHint: Too many parameters per function (4).
-function logout(request, isManual, whereAmI, onSuccess) {
+function logout() {
 
 }

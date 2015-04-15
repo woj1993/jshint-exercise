@@ -1,7 +1,7 @@
 /* jshint funcscope: false */
-function test() {
+function test(x) {
 	if (true) {
-		var x = 0;
+		x = 0;
 	}
 
 	x += 1; // Default: 'x' used out of scope.

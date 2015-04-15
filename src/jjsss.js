@@ -7,10 +7,12 @@ var arr = [],
     i;
 
 for (i in arr) {
+    if (arr.hasOwnProperty()){
     doSomething(arr[i]);
+}
 }
 
 /*jshint freeze: true */
-String.prototype.reverse = function () {
+String.prototype.reverse2 = function () {
     return this.split("").reverse().join("");
 };

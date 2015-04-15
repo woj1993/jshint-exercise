@@ -1,7 +1,7 @@
 function freezeTest(){
 
     'use strict';
-    var value = 5;
+    var value = 0;
 
     if (value > 0){
        Array.prototype.count = function (value) { return 4; };

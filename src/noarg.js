@@ -3,16 +3,13 @@
  */
 function foo () {
 
-    function create() {
-
-        return function (n) {
+    function create(n) {
             if (n <= 1) {
                 return 1;
             }
-            return n * arguments.callee(n - 1);
-        };
+            return n * create(n - 1);
     }
     create();
 
-    var result = foo()(5); // returns 120 (5 * 4 * 3 * 2 * 1)
+    var result = foo(create(5)); // returns 120 (5 * 4 * 3 * 2 * 1)
 }
