@@ -5,6 +5,8 @@ module.exports = function (grunt) {
 
     jshint: {
       options: {
+        reporter: 'checkstyle',
+	reporterOutput: 'target/checkstyle.xml',
         jshintrc: '.jshintrc'
       }, all: {
         src: ['src/**/*.js']
